@@ -4,6 +4,7 @@ body {
 	padding: 0;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
+	background-image: url('/img/bg.png');
 }
 
 h1 {
@@ -12,6 +13,23 @@ h1 {
 	text-align: center;
 }
 
+h3 {
+	font-size: 42px;
+	font-weight: bold;
+	color: #56565c;
+	text-transform: uppercase;
+}
+
+.line-clip {
+	color: #ece1e1;
+	width: 900px;
+	height: 0;
+}
+
+.blue-line {
+	color: #4f7aff;
+	width: 150px;
+}
 
 /* header */
 
@@ -104,4 +122,372 @@ header {
 	border-color: #4e7aff;
 	color: #4e7aff;
 	background-color: #fff;
+}
+
+/* main */
+
+/* essense-block */
+
+.essense-block {
+	width: 100%;
+	height: 692px;
+	display: flex;
+	padding-top: 110px;
+}
+
+.essense-desc {
+	width: 50%;
+	display: flex;
+	padding-left: 200px;
+	background-image: url('/img/fireman.png');
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.essense-text h2 {
+	text-align: left;
+	font-size: 42px;
+	color: #7c6d6d;
+	text-transform: uppercase;
+}
+
+.essense-p {
+	width: 500px;
+	padding-top: 10px;
+	line-height: 30px;
+	text-align: left;
+	font-size: 16px;
+	color: #968a8a;
+}
+
+.button-rules {
+	background-image: url('/img/btn-rules.png');
+	background-position: bottom;
+	background-repeat: no-repeat;
+	/* background-color: #fff; */
+	margin-top: 20px;
+	border: 0;
+	cursor: pointer;
+	width: 300px;
+	height: 100px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.href-rules {
+	list-style-type: none;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+}
+
+
+/* desc-system */
+
+.desc-system {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block-syst-first {
+	display: inline-block;
+}
+
+.block-syst-first img {
+	line-height: 0px;
+	padding-bottom: 0;	
+}
+
+.block-syst-first h4 {
+	line-height: 0px;
+	padding-bottom: 0px;	
+	color: #4c4c4c;
+	font-size: 24px;
+}
+
+.block-syst-second {
+	display: inline-block;
+	padding-left: 55px;
+}
+
+.block-syst-second img {
+	line-height: 0px;
+	padding-bottom: 0;	
+}
+
+.block-syst-second h4 {
+	line-height: 0px;
+	padding-bottom: 0;	
+	color: #4c4c4c;
+	font-size: 24px;
+}
+
+.special-h4 {
+	color: #7c6d6d !important;
+	text-transform: uppercase;
+}
+
+.rotate-block {
+	line-height: 230px;
+	padding-top: 80px;
+	max-width: 50px;
+}
+
+.text-rotate {
+	transform: rotate(270deg);
+	font-size: 39px;	
+	font-weight: bold;
+	color: #7c6d6d;
+}
+
+/* departaments-information */
+
+.departaments-information {
+	padding-bottom: 55px;
+}
+
+.departaments-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-bottom: 85px;
+}
+
+.departaments-header p {
+	font-size: 14px;
+	color: #727275;
+	padding-bottom: 25px;
+}
+
+.departaments-blocks {
+
+}
+
+.departaments-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.departaments-menu li {
+	display: inline-block;
+	text-transform: uppercase;
+	padding-right: 35px;
+}
+
+	
+.departaments-menu li a {
+	display: inline-block;
+    color: #727275;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+
+.dep-menu-effect a {
+    display: inline-block;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+
+.dep-menu-effect:after {
+	margin-top: 5px;
+    background-color: #4f7aff;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+
+.dep-menu-effect:hover:after,
+.dep-menu-effect:focus:after {
+    width: 100%;
+}
+
+.departaments-block {
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.dep-block {
+	margin: 10px;
+	width: 250px;
+	height: 250px;
+	background-color: #4f7aff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dep-block:hover {
+	opacity: .8;
+	cursor: pointer;
+}
+
+.dep-block p {
+	color: #fff;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+/* ourteam */
+
+.ourteam {
+	text-align: left;
+}
+
+.ourteam-header {
+	padding-bottom: 75px;
+	padding-left: 140px;
+}
+
+.fix {
+	margin-top: 25px;
+	padding-left: 0px;
+	float: left;
+}
+
+.ourteam-header p {
+	font-size: 14px;
+	color: #6b6b7d;
+	line-height: 25px;
+}
+
+
+.ourteam-description {
+	display: flex;
+	padding-left: 80px;
+}
+
+
+
+.ourteam-desc {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.ourteam-logoteam {
+	display: flex;
+	padding-top: 110px;
+}
+
+.logo-block {
+	margin: 10px;
+	width: 180px;
+	height: 180px;
+	background-color: #efeade;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.ourline-contact {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.blue-line {
+	border-right: 2px solid blue;
+}
+
+.yellow-line {
+	border-right: 2px solid yellow;
+}
+
+.red-line {
+	border-right: 2px solid red;
+}
+
+.pink-line {
+	border-right: 2px solid #e27de5;
+}
+
+.contact-name {
+	position: absolute;
+	margin-top: 140px;
+	height: 40px;
+	width: 180px;
+	background: #817269;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact-name p {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* advertising */
+
+.ad {
+	width: 100%;
+	height: 515px;
+	background-color: #4c76ff;
+}
+
+.ad h2 {
+	color: #e1e7ff;
+	text-transform: uppercase;
+	font-size: 36px;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+
+}
+
+/* footer */
+
+.footer {
+	width: 100%;
+	height: 110px;
+	background-image: url('/img/footer.png');
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer-content p {
+	color: #e1e7ff;
+}
+
+.right {
+	padding-right: 150px;
+}
+
+.left {
+	padding-left: 150px;
 }
