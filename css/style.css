@@ -1,0 +1,11 @@
+body {
+	height: 1500px;
+	padding: 0;
+	margin: 0;
+}
+
+.nav-wrap  {
+	width: 250px;
+	height: 500px;
+	background-color: #000;
+}
